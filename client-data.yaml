@@ -5,156 +5,130 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── Identity ──────────────────────────────────────────────────────────────────
-SLUG: "ramires-ata"                         # Folder name, GitHub repo, Cloudflare Pages project
-GOOGLE_PLACE_ID: ""                     # From Places API lookup — e.g. ChIJtest123
+SLUG: "ramires-ata"
+GOOGLE_PLACE_ID: "ChIJ5TFVktb8qIkRVJfUyHiiJCg"
 SCHOOL_NAME: "Ramires ATA Black Belt Academy"
-MARTIAL_ART: ""                         # e.g. Brazilian Jiu-Jitsu, Karate, Taekwondo, MMA
-SITE_URL: "https://www.ramiresatabba.com"       # Full URL with https://
+MARTIAL_ART: "ATA Taekwondo"
+SITE_URL: "https://www.ramiresatabba.com"
 DOMAIN: "ramiresatabba.com"
 
 # ── Location ──────────────────────────────────────────────────────────────────
-CITY: ""
-STATE: ""                               # 2-letter abbreviation, e.g. MD
-ZIP: ""
-ADDRESS_LINE_1: ""
+CITY: "Swansboro"
+STATE: "NC"
+ZIP: "28584"
+ADDRESS_LINE_1: "1034 West Corbett Avenue"
 
 # ── Contact ───────────────────────────────────────────────────────────────────
-PHONE: ""                               # Format: (555) 555-5555
-EMAIL: ""
-HOURS: ""                               # e.g. Mon–Fri 4pm–9pm · Sat 10am–2pm
+PHONE: "(910) 326-7677"
+EMAIL: "RamiresATAbba1@yahoo.com"
+HOURS: "Mon–Thu 5:00–7:00 PM"
+HOURS_SHORT: "Mon–Thu"
 
-# ── Founding year (optional — leave blank if new school) ──────────────────────
-YEAR_FOUNDED: ""
+# ── Founding year ─────────────────────────────────────────────────────────────
+YEAR_FOUNDED: "2007"
 
 # ── Branding ──────────────────────────────────────────────────────────────────
-PRIMARY_COLOR: ""                       # e.g. #cc0000
-SECONDARY_COLOR: ""                     # e.g. #ffc700
-LOGO_IMAGE: brand_assets/logo.png       # Drop logo.png in brand_assets/ — auto-populated
-FACEBOOK_URL: ""                        # Full URL or leave blank
-INSTAGRAM_URL: ""                       # Full URL or leave blank
+# Colors pulled from live site DOM (not guessed):
+#   Primary = rgb(4, 61, 194) — ATA royal blue used on hero, sections, buttons
+#   Secondary = rgb(22, 22, 22) — near-black nav/background
+PRIMARY_COLOR: "#043DC2"
+SECONDARY_COLOR: "#161616"
+LOGO_IMAGE: brand_assets/logo.png
+FACEBOOK_URL: "https://www.facebook.com/ramiresata"
+INSTAGRAM_URL: ""
 
 # ── Hero section ──────────────────────────────────────────────────────────────
-# Drop hero.jpg in images/hero/ — HERO_IMAGE is auto-populated
-HERO_HEADLINE: ""                       # Main headline, e.g. "Train Like a Champion"
-HERO_SUBHEADLINE: ""                    # Optional subheadline below main headline
-HERO_SUBTEXT: ""                        # Supporting copy below the headline
+HERO_HEADLINE: "Unleash Your Inner Warrior"
+HERO_SUBHEADLINE: "ATA Taekwondo & Self-Defense in Swansboro, NC"
+HERO_SUBTEXT: "Ramires ATA Black Belt Academy has been building confident, disciplined champions through the American Taekwondo Association curriculum since 2007. Led by a 4th Degree Black Belt and 22-year law enforcement veteran. Programs for ages 3 through adult — beginners always welcome."
 
 # ── Social proof ──────────────────────────────────────────────────────────────
-# SHOW_PROOF_BAR: set to "false" for new schools or unverified review counts
+# NOTE: Verified via Google Places API — Place ID ChIJ5TFVktb8qIkRVJfUyHiiJCg
 SHOW_PROOF_BAR: "true"
-STAR_RATING: ""                         # From Google — must include decimal, e.g. 4.9
-REVIEW_COUNT: ""                        # Plain integer, e.g. 47 (no + symbol)
+STAR_RATING: "4.8"
+REVIEW_COUNT: "57"
 
 # ── About section ─────────────────────────────────────────────────────────────
-ABOUT_TEXT: ""                          # 2 sentences about the school and community
+ABOUT_TEXT: "Ramires ATA Black Belt Academy was founded in December 2007 by Frederica M. Ramires — known to students as Dolly — a 4th Degree Black Belt with 40+ years of martial arts experience and a 22-year career in law enforcement, rising from Corporal to Chief. Training in a 1,750-square-foot facility in Swansboro, NC, Ramires ATA follows the American Taekwondo Association curriculum, developing strength, focus, discipline, and real self-defense skills in students from age 3 through adult."
 
-# ── Instructor 1 (required) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-1/ — auto-populated
-INSTRUCTOR_1_NAME: ""
-INSTRUCTOR_1_TITLE: ""                  # e.g. Head Instructor & 4th Degree Black Belt
-INSTRUCTOR_1_BIO: ""                    # 2-3 sentences, third person
+# ── Instructor 1 ──────────────────────────────────────────────────────────────
+INSTRUCTOR_1_NAME: "Frederica M. Ramires"
+INSTRUCTOR_1_PHOTO: "images/instructor/instructor-1/dolly.png"
+INSTRUCTOR_1_TITLE: "Owner & Chief Instructor · 4th Degree Black Belt"
+INSTRUCTOR_1_BIO: "Frederica M. Ramires — \"Dolly\" to her students — founded Ramires ATA Black Belt Academy in December 2007, building it into the Crystal Coast's premier ATA school. A 4th Degree Black Belt certified by ATA International headquarters in Little Rock, AR, Dolly brings 40+ years of martial arts experience alongside a 22-year law enforcement career that took her from Corporal all the way to Chief. She holds a Level 3 Krav Maga certification and is a specialist in ATA Xtreme Forms, Xtreme Weapons, Creative Forms, Sparring, and Traditional disciplines — plus defensive tactics and sexual harassment and rape prevention instruction. That law enforcement background gives Dolly's Women's Self-Defense program a credibility and real-world depth that most instructors simply can't match."
 
-# ── Instructor 2 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-2/ — auto-populated
-INSTRUCTOR_2_NAME: ""
-INSTRUCTOR_2_TITLE: ""
-INSTRUCTOR_2_BIO: ""
+# ── Program 1 — Tiny Tigers ───────────────────────────────────────────────────
+# ⚠️  VERIFY BEFORE DNS SWITCH — per-program class times not available from site.
+# Google confirms Mon–Thu 5:00–7:00 PM block. Confirm specific slot with Frederica.
+PROGRAM_1_NAME: "Tiny Tigers"
+PROGRAM_1_PHOTO: "images/programs/program-1/main.jpg"
+PROGRAM_1_AGE_RANGE: "Ages 3–7"
+PROGRAM_1_DAYS: "Mon–Thu"
+PROGRAM_1_SESSION_LEN: "45-min classes"
+PROGRAM_1_DESCRIPTION: "Tiny Tigers introduces our youngest students to the fundamentals of Songham Taekwondo — balance, focus, basic techniques, and following instructions — in a structured, age-appropriate environment. Students learn rank-specific skills, beginner weapons forms, and board breaking, all while building the self-control and confidence that carries right into school and home life."
+PROGRAM_1_AUDIENCE_KIDS: "1"
 
-# ── Instructor 3 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-3/ — auto-populated
-INSTRUCTOR_3_NAME: ""
-INSTRUCTOR_3_TITLE: ""
-INSTRUCTOR_3_BIO: ""
+# ── Program 2 — Kids & Teens Taekwondo ───────────────────────────────────────
+PROGRAM_2_NAME: "Kids & Teens Taekwondo"
+PROGRAM_2_PHOTO: "images/programs/program-2/main.jpg"
+PROGRAM_2_AGE_RANGE: "Ages 7–14"
+PROGRAM_2_DAYS: "Mon–Thu"
+PROGRAM_2_SESSION_LEN: "60-min classes"
+PROGRAM_2_DESCRIPTION: "Our core ATA Taekwondo program guides kids and teens through the full rank system — white belt to black belt — while developing discipline, leadership, and real martial arts skill at every step. The curriculum rotates every two months to reinforce life skills as well as technique, and students at every level compete, perform, and grow together as a community."
+PROGRAM_2_AUDIENCE_KIDS: "1"
+PROGRAM_2_AUDIENCE_TEENS: "1"
 
-# ── Program 1 (required) ──────────────────────────────────────────────────────
-# Drop photo in images/programs/program-1/ named main.jpg — auto-populated
-PROGRAM_1_NAME: ""
-PROGRAM_1_AGE_RANGE: ""                 # e.g. Ages 5–12
-PROGRAM_1_DAYS: ""                      # e.g. Mon & Wed / Tue & Thu
-PROGRAM_1_SESSION_LEN: ""              # e.g. 60-min classes
-PROGRAM_1_DESCRIPTION: ""              # 1-2 sentences
-PROGRAM_1_AUDIENCE_ADULTS: ""          # Set to "1" if adult program (shows adult gains copy)
-PROGRAM_1_AUDIENCE_KIDS: ""            # Set to "1" if kids program
-PROGRAM_1_AUDIENCE_TEENS: ""           # Set to "1" if teens program
+# ── Program 3 — Adult Taekwondo ───────────────────────────────────────────────
+PROGRAM_3_NAME: "Adult Taekwondo"
+PROGRAM_3_PHOTO: "images/programs/program-3/main.jpg"
+PROGRAM_3_AGE_RANGE: "Ages 14+"
+PROGRAM_3_DAYS: "Mon–Thu"
+PROGRAM_3_SESSION_LEN: "60-min classes"
+PROGRAM_3_DESCRIPTION: "Adult ATA Taekwondo at Ramires is a full workout and a serious discipline — building strength, flexibility, focus, and practical self-defense skills simultaneously. Led by a 4th Degree Black Belt and former law enforcement chief, classes are structured, goal-oriented, and welcoming to complete beginners. No prior experience needed — just the decision to start."
+PROGRAM_3_AUDIENCE_ADULTS: "1"
 
-# ── Program 2 (optional) ──────────────────────────────────────────────────────
-PROGRAM_2_NAME: ""
-PROGRAM_2_AGE_RANGE: ""
-PROGRAM_2_DAYS: ""
-PROGRAM_2_SESSION_LEN: ""
-PROGRAM_2_DESCRIPTION: ""
-PROGRAM_2_AUDIENCE_ADULTS: ""
-PROGRAM_2_AUDIENCE_KIDS: ""
-PROGRAM_2_AUDIENCE_TEENS: ""
+# ── Women's Self-Defense (callout section — pending template implementation) ──
+# ⚠️  TEMPLATE NOTE: This content is captured and ready, but the dedicated
+# callout section (using WOMENS_SELF_DEFENSE_DESCRIPTION as the trigger token)
+# has not yet been added to index.html. See PENDING_FIXES.md Issue #6 pattern.
+# When the template section is implemented, this block will render automatically.
+WOMENS_SELF_DEFENSE_DESCRIPTION: "Practical, real-world self-defense skills taught by a 22-year law enforcement veteran and Level 3 Krav Maga instructor. Ramires ATA's Women's Self-Defense classes cover situational awareness, de-escalation, and hands-on defensive techniques — taught in a safe, supportive environment with zero judgment. By appointment."
+WOMENS_SELF_DEFENSE_CONTACT_NOTE: "Interested in Women's Self-Defense? Call or email us to schedule your session."
 
-# ── Program 3 (optional) ──────────────────────────────────────────────────────
-PROGRAM_3_NAME: ""
-PROGRAM_3_AGE_RANGE: ""
-PROGRAM_3_DAYS: ""
-PROGRAM_3_SESSION_LEN: ""
-PROGRAM_3_DESCRIPTION: ""
-PROGRAM_3_AUDIENCE_ADULTS: ""
-PROGRAM_3_AUDIENCE_KIDS: ""
-PROGRAM_3_AUDIENCE_TEENS: ""
+# ── Class schedule ────────────────────────────────────────────────────────────
+# ⚠️  VERIFY BEFORE DNS SWITCH — only Mon–Thu 5:00–7:00 PM confirmed from Google.
+# Specific per-program times within that window need confirmation from Frederica.
+CLASS_SCHEDULE_HTML: "<table class=\"sched\" role=\"table\" aria-label=\"Weekly class schedule\"><thead><tr><th scope=\"col\">Program</th><th scope=\"col\">Monday</th><th scope=\"col\">Tuesday</th><th scope=\"col\">Wednesday</th><th scope=\"col\">Thursday</th><th scope=\"col\">Friday</th><th scope=\"col\">Saturday</th></tr></thead><tbody><tr><td>Tiny Tigers<br><small style=\"color:#64748b\">Ages 3–7 · 45 min</small></td><td><span class=\"time-slot kids\">5:00 PM</span></td><td><span class=\"time-slot kids\">5:00 PM</span></td><td><span class=\"time-slot kids\">5:00 PM</span></td><td><span class=\"time-slot kids\">5:00 PM</span></td><td><span class=\"time-empty\">—</span></td><td><span class=\"time-empty\">—</span></td></tr><tr><td>Kids &amp; Teens Taekwondo<br><small style=\"color:#64748b\">Ages 7–14 · 60 min</small></td><td><span class=\"time-slot kids\">5:30 PM</span></td><td><span class=\"time-slot kids\">5:30 PM</span></td><td><span class=\"time-slot kids\">5:30 PM</span></td><td><span class=\"time-slot kids\">5:30 PM</span></td><td><span class=\"time-empty\">—</span></td><td><span class=\"time-empty\">—</span></td></tr><tr><td>Adult Taekwondo<br><small style=\"color:#64748b\">Ages 14+ · 60 min</small></td><td><span class=\"time-slot adult\">6:30 PM</span></td><td><span class=\"time-slot adult\">6:30 PM</span></td><td><span class=\"time-slot adult\">6:30 PM</span></td><td><span class=\"time-slot adult\">6:30 PM</span></td><td><span class=\"time-empty\">—</span></td><td><span class=\"time-empty\">—</span></td></tr><tr><td>Women's Self-Defense<br><small style=\"color:#64748b\">Adults · By appt</small></td><td><span class=\"time-empty\">By appt</span></td><td><span class=\"time-empty\">By appt</span></td><td><span class=\"time-empty\">By appt</span></td><td><span class=\"time-empty\">By appt</span></td><td><span class=\"time-empty\">—</span></td><td><span class=\"time-empty\">—</span></td></tr></tbody></table><p style=\"margin-top:8px;font-size:0.875rem;color:#64748b;font-style:italic\">Schedule subject to change — times estimated from Mon–Thu 5–7 PM window. Call (910) 326-7677 to confirm.</p>"
 
-# ── Program 4 (optional) ──────────────────────────────────────────────────────
-PROGRAM_4_NAME: ""
-PROGRAM_4_AGE_RANGE: ""
-PROGRAM_4_DAYS: ""
-PROGRAM_4_SESSION_LEN: ""
-PROGRAM_4_DESCRIPTION: ""
-PROGRAM_4_AUDIENCE_ADULTS: ""
-PROGRAM_4_AUDIENCE_KIDS: ""
-PROGRAM_4_AUDIENCE_TEENS: ""
+# ── Google reviewers ──────────────────────────────────────────────────────────
+REVIEWER_1_NAME: "William Jessen"
+REVIEWER_1_DATE: "1 year ago"
+REVIEWER_1_TEXT: "Kudos to the current Leadership and Owner on their persistence and dedication to the students. It's amazing to see Sam and Miranda continue to grow and improve. Ramires ATA has been an incredible experience for our family."
 
-# ── Program 5 (optional) ──────────────────────────────────────────────────────
-PROGRAM_5_NAME: ""
-PROGRAM_5_AGE_RANGE: ""
-PROGRAM_5_DAYS: ""
-PROGRAM_5_SESSION_LEN: ""
-PROGRAM_5_DESCRIPTION: ""
-PROGRAM_5_AUDIENCE_ADULTS: ""
-PROGRAM_5_AUDIENCE_KIDS: ""
-PROGRAM_5_AUDIENCE_TEENS: ""
+REVIEWER_2_NAME: "Hala B"
+REVIEWER_2_DATE: "1 year ago"
+REVIEWER_2_TEXT: "ATA Ramires is an outstanding place for individuals of all ages to grow, both physically and mentally. The instruction instills discipline, respect, and perseverance. Highly recommended for anyone looking to develop martial arts skills and character."
 
-# ── Program 6 (optional) ──────────────────────────────────────────────────────
-PROGRAM_6_NAME: ""
-PROGRAM_6_AGE_RANGE: ""
-PROGRAM_6_DAYS: ""
-PROGRAM_6_SESSION_LEN: ""
-PROGRAM_6_DESCRIPTION: ""
-PROGRAM_6_AUDIENCE_ADULTS: ""
-PROGRAM_6_AUDIENCE_KIDS: ""
-PROGRAM_6_AUDIENCE_TEENS: ""
+REVIEWER_3_NAME: "Julita Amielko"
+REVIEWER_3_DATE: "10 months ago"
+REVIEWER_3_TEXT: "Absolutely awesome place. They are so patient with the little kids. My daughter has grown so much in confidence and focus since joining. They have been an absolute blessing to have for my firecracker."
 
-# ── Class schedule (optional — builds the full schedule table on schedules.html)
-CLASS_SCHEDULE_HTML: ""                 # Full HTML table. Leave blank if no schedule yet.
+REVIEWER_4_NAME: "Matthew Harris"
+REVIEWER_4_DATE: "1 year ago"
+REVIEWER_4_TEXT: "Ramires ATA has been a phenomenal experience for my 3 daughters and I. The self-discipline and confidence we have learned here will last a lifetime. Ramires ATA has truly become like family to us."
 
-# ── Google reviewers (optional — up to 10) ────────────────────────────────────
-# REVIEWER_1_INITIAL is computed automatically from REVIEWER_1_NAME
-REVIEWER_1_NAME: ""
-REVIEWER_1_DATE: ""                     # e.g. 2 months ago
-REVIEWER_1_TEXT: ""
+REVIEWER_5_NAME: "Shyanne Toler"
+REVIEWER_5_DATE: "8 months ago"
+REVIEWER_5_TEXT: "My son attends taekwondo here and he enjoys it so much. The staff is very friendly and it's a wonderful atmosphere. Highly recommend to anyone looking for a great martial arts program."
 
-REVIEWER_2_NAME: ""
-REVIEWER_2_DATE: ""
-REVIEWER_2_TEXT: ""
-
-REVIEWER_3_NAME: ""
-REVIEWER_3_DATE: ""
-REVIEWER_3_TEXT: ""
-
-# Add REVIEWER_4 through REVIEWER_10 as needed (same structure)
-
-# ── GHL Webhooks (required — set these before the final build) ────────────────
-# Get these from GHL: Sub-account → Settings → Integrations → Webhooks
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-
-# Get from GHL: Sub-account → Calendars → [Calendar] → Embed → Group Widget URL
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+# ── GHL Webhooks — PLACEHOLDER values, replace before launch ─────────────────
+TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/trial"
+STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/kit"
+QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/quiz"
+FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/final"
+BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/RAMIRES_PLACEHOLDER"
 
 # ── Privacy policy ────────────────────────────────────────────────────────────
+# ⚠️  No privacy policy page found on ramiresatabba.com — placeholder until
+# Frederica provides a URL or we generate one.
 PRIVACY_POLICY_URL: "https://www.ramiresatabba.com/privacy"

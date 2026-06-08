@@ -266,7 +266,7 @@ if (instrPath && fs.existsSync(instrPath)) {
     }
   }
   if (contrastIssues.length > 0) {
-    contrastIssues.forEach(msg => warn(`CONTRAST: ${msg}`));
+    contrastIssues.forEach(msg => caution(`CONTRAST: ${msg}`));
   } else {
     ok('No dark-text-on-dark-background contrast issues detected');
   }
