@@ -40,7 +40,7 @@ INSTAGRAM_URL: ""
 # ── Hero section ──────────────────────────────────────────────────────────────
 HERO_HEADLINE: "Unleash Your Inner Warrior"
 HERO_SUBHEADLINE: "ATA Taekwondo & Self-Defense in Swansboro, NC"
-HERO_SUBTEXT: "Ramires ATA Black Belt Academy has been building confident, disciplined champions through the American Taekwondo Association curriculum since 2007. Led by a 4th Degree Black Belt and 22-year law enforcement veteran. Programs for ages 3 through adult — beginners always welcome."
+HERO_SUBTEXT: "Ramires ATA Black Belt Academy has been building confident, disciplined champions through the American Taekwondo Association curriculum since 2007. Led by a 5th Degree Black Belt and 22-year law enforcement veteran. Programs for ages 3 through adult — beginners always welcome."
 
 # ── Social proof ──────────────────────────────────────────────────────────────
 # NOTE: Verified via Google Places API — Place ID ChIJ5TFVktb8qIkRVJfUyHiiJCg
@@ -49,13 +49,13 @@ STAR_RATING: "4.8"
 REVIEW_COUNT: "57"
 
 # ── About section ─────────────────────────────────────────────────────────────
-ABOUT_TEXT: "Ramires ATA Black Belt Academy was founded in December 2007 by Frederica M. Ramires — known to students as Dolly — a 4th Degree Black Belt with 40+ years of martial arts experience and a 22-year career in law enforcement, rising from Corporal to Chief. Training in a 1,750-square-foot facility in Swansboro, NC, Ramires ATA follows the American Taekwondo Association curriculum, developing strength, focus, discipline, and real self-defense skills in students from age 3 through adult."
+ABOUT_TEXT: "Ramires ATA Black Belt Academy was founded in December 2007 by Frederica M. Ramires — known to students as Dolly — a 5th Degree Black Belt with 40+ years of martial arts experience and a 22-year career in law enforcement, rising from Corporal to Chief. Training in a 1,750-square-foot facility in Swansboro, NC, Ramires ATA follows the American Taekwondo Association curriculum, developing strength, focus, discipline, and real self-defense skills in students from age 3 through adult."
 
 # ── Instructor 1 ──────────────────────────────────────────────────────────────
 INSTRUCTOR_1_NAME: "Frederica M. Ramires"
 INSTRUCTOR_1_PHOTO: "images/instructor/instructor-1/dolly.png"
-INSTRUCTOR_1_TITLE: "Owner & Chief Instructor · 4th Degree Black Belt"
-INSTRUCTOR_1_BIO: "Frederica M. Ramires — \"Dolly\" to her students — founded Ramires ATA Black Belt Academy in December 2007, building it into the Crystal Coast's premier ATA school. A 4th Degree Black Belt certified by ATA International headquarters in Little Rock, AR, Dolly brings 40+ years of martial arts experience alongside a 22-year law enforcement career that took her from Corporal all the way to Chief. She holds a Level 3 Krav Maga certification and is a specialist in ATA Xtreme Forms, Xtreme Weapons, Creative Forms, Sparring, and Traditional disciplines — plus defensive tactics and sexual harassment and rape prevention instruction. That law enforcement background gives Dolly's Women's Self-Defense program a credibility and real-world depth that most instructors simply can't match."
+INSTRUCTOR_1_TITLE: "Owner & Chief Instructor · 5th Degree Black Belt"
+INSTRUCTOR_1_BIO: "Frederica M. Ramires — \"Dolly\" to her students — founded Ramires ATA Black Belt Academy in December 2007, building it into the Crystal Coast's premier ATA school. A 5th Degree Black Belt certified by ATA International headquarters in Little Rock, AR, Dolly brings 40+ years of martial arts experience alongside a 22-year law enforcement career that took her from Corporal all the way to Chief. She holds a Level 3 Krav Maga certification and is a specialist in ATA Xtreme Forms, Xtreme Weapons, Creative Forms, Sparring, and Traditional disciplines — plus defensive tactics and sexual harassment and rape prevention instruction. That law enforcement background gives Dolly's Women's Self-Defense program a credibility and real-world depth that most instructors simply can't match."
 
 # ── Program 1 — Tiny Tigers ───────────────────────────────────────────────────
 # ⚠️  VERIFY BEFORE DNS SWITCH — per-program class times not available from site.
@@ -84,7 +84,7 @@ PROGRAM_3_PHOTO: "images/programs/program-3/main.jpg"
 PROGRAM_3_AGE_RANGE: "Ages 14+"
 PROGRAM_3_DAYS: "Mon–Thu"
 PROGRAM_3_SESSION_LEN: "60-min classes"
-PROGRAM_3_DESCRIPTION: "Adult ATA Taekwondo at Ramires is a full workout and a serious discipline — building strength, flexibility, focus, and practical self-defense skills simultaneously. Led by a 4th Degree Black Belt and former law enforcement chief, classes are structured, goal-oriented, and welcoming to complete beginners. No prior experience needed — just the decision to start."
+PROGRAM_3_DESCRIPTION: "Adult ATA Taekwondo at Ramires is a full workout and a serious discipline — building strength, flexibility, focus, and practical self-defense skills simultaneously. Led by a 5th Degree Black Belt and former law enforcement chief, classes are structured, goal-oriented, and welcoming to complete beginners. No prior experience needed — just the decision to start."
 PROGRAM_3_AUDIENCE_ADULTS: "1"
 
 # ── Women's Self-Defense (callout section — pending template implementation) ──
