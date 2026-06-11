@@ -75,7 +75,7 @@
     /* Photo column */
     .prog-photo-col{}
     .prog-photo{border-radius:var(--radius-lg);overflow:hidden;aspect-ratio:4/5}
-    .prog-photo img{width:100%;height:100%;object-fit:cover;display:block}
+    .prog-photo img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
     .prog-photo-meta{margin-top:16px;display:flex;gap:16px}
     .prog-meta-pill{flex:1;background:var(--light);border-radius:var(--radius);padding:14px 16px;text-align:center;border:1px solid var(--gray-light)}
     .prog-meta-pill .pill-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--gray);display:block;margin-bottom:4px}
@@ -283,7 +283,7 @@
       <!-- LEFT: Photo + meta pills -->
       <div class="prog-photo-col">
         <div class="prog-photo">
-          <img src="[PROGRAM_PHOTO]" alt="[PROGRAM_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:100%;object-fit:cover">
+          <img src="[PROGRAM_PHOTO]" alt="[PROGRAM_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">
         </div>
         <div class="prog-photo-meta">
           <div class="prog-meta-pill">

@@ -22,7 +22,7 @@ ADDRESS_LINE_1: "1034 West Corbett Avenue"
 PHONE: "(910) 326-7677"
 EMAIL: "RamiresATAbba1@yahoo.com"
 HOURS: "Mon–Thu 5:00–7:00 PM"
-HOURS_SHORT: "Mon–Thu"
+DAYS_OPEN: "Mon–Thu"
 
 # ── Founding year ─────────────────────────────────────────────────────────────
 YEAR_FOUNDED: "2007"
