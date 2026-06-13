@@ -122,10 +122,10 @@ REVIEWER_5_DATE: "8 months ago"
 REVIEWER_5_TEXT: "My son attends taekwondo here and he enjoys it so much. The staff is very friendly and it's a wonderful atmosphere. Highly recommend to anyone looking for a great martial arts program."
 
 # ── GHL Webhooks — PLACEHOLDER values, replace before launch ─────────────────
-TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/trial"
-STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/kit"
-QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/quiz"
-FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/final"
+TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/8h2j6GKjVHyx0KzflIcZ/webhook-trigger/NpuzHMxBeSp5Wi7ulpoF"
+STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/8h2j6GKjVHyx0KzflIcZ/webhook-trigger/NpuzHMxBeSp5Wi7ulpoF"
+QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/8h2j6GKjVHyx0KzflIcZ/webhook-trigger/NpuzHMxBeSp5Wi7ulpoF"
+FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/8h2j6GKjVHyx0KzflIcZ/webhook-trigger/NpuzHMxBeSp5Wi7ulpoF"
 BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/KRy1R9wTxYgwMT4xiWLI"
 
 # ── Privacy policy ────────────────────────────────────────────────────────────
