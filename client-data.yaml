@@ -126,7 +126,7 @@ TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLD
 STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/kit"
 QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/quiz"
 FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/RAMIRES_PLACEHOLDER/webhook-trigger/final"
-BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/RAMIRES_PLACEHOLDER"
+BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/KRy1R9wTxYgwMT4xiWLI"
 
 # ── Privacy policy ────────────────────────────────────────────────────────────
 # ⚠️  No privacy policy page found on ramiresatabba.com — placeholder until
